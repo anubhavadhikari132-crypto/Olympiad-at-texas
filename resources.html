@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Resources | Olympiad at Texas</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=Outfit:wght@500;700;800&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="css/styles.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/gsap.min.js"></script>
+    <style>
+        .resource-item {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            background: var(--bg-tertiary);
+            padding: 1.5rem;
+            border-radius: 0.5rem;
+            margin-bottom: 1rem;
+            border: 1px solid var(--border-color);
+            transition: var(--transition-fast);
+        }
+
+        .resource-item:hover {
+            border-color: var(--accent-primary);
+            background: #252525;
+        }
+
+        .resource-icon {
+            font-size: 1.5rem;
+            margin-right: 1rem;
+            color: var(--accent-secondary);
+        }
+    </style>
+</head>
+
+<body>
+    <nav class="navbar">
+        <div class="container nav-container">
+            <a href="index.html" class="logo"><span class="text-gradient">Olympiad</span> Texas</a>
+            <button class="mobile-menu-btn">☰</button>
+            <ul class="nav-links">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About Us</a></li>
+                <li><a href="events.html">Events</a></li>
+                <li><a href="resources.html" class="active">Resources</a></li>
+                <li><a href="blog.html">Blog</a></li>
+                <li><a href="contact.html" class="btn btn-primary">Register Now</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <header class="section-padding" style="padding-top: 120px; text-align: center;">
+        <div class="container">
+            <h1 class="fade-in">Study <span class="text-gradient">Resources</span></h1>
+            <p class="fade-in" style="color: var(--text-secondary); max-width: 600px; margin: 0 auto;">Access past
+                papers, study guides, and preparation tips to excel in your competitions.</p>
+        </div>
+    </header>
+
+    <section class="section-padding">
+        <div class="container">
+            <div class="fade-in">
+                <h2 style="margin-bottom: 2rem;">Past Papers</h2>
+                <div class="resource-item">
+                    <div style="display: flex; align-items: center;">
+                        <span class="resource-icon">📄</span>
+                        <div>
+                            <h4>Math Olympiad 2024 - Finals</h4>
+                            <p style="color: var(--text-secondary); font-size: 0.9rem;">PDF • 2.4 MB</p>
+                        </div>
+                    </div>
+                    <a href="#" class="btn btn-outline" style="padding: 0.5rem 1rem; font-size: 0.9rem;">Download</a>
+                </div>
+                <div class="resource-item">
+                    <div style="display: flex; align-items: center;">
+                        <span class="resource-icon">📄</span>
+                        <div>
+                            <h4>Science Fair 2024 - Project Guidelines</h4>
+                            <p style="color: var(--text-secondary); font-size: 0.9rem;">PDF • 1.1 MB</p>
+                        </div>
+                    </div>
+                    <a href="#" class="btn btn-outline" style="padding: 0.5rem 1rem; font-size: 0.9rem;">Download</a>
+                </div>
+            </div>
+
+            <div class="fade-in" style="margin-top: 4rem;">
+                <h2 style="margin-bottom: 2rem;">Study Guides</h2>
+                <div class="resource-item">
+                    <div style="display: flex; align-items: center;">
+                        <span class="resource-icon">📚</span>
+                        <div>
+                            <h4>Algebra Mastery Guide</h4>
+                            <p style="color: var(--text-secondary); font-size: 0.9rem;">PDF • 5.6 MB</p>
+                        </div>
+                    </div>
+                    <a href="#" class="btn btn-outline" style="padding: 0.5rem 1rem; font-size: 0.9rem;">Download</a>
+                </div>
+                <div class="resource-item">
+                    <div style="display: flex; align-items: center;">
+                        <span class="resource-icon">📚</span>
+                        <div>
+                            <h4>Physics Concepts Review</h4>
+                            <p style="color: var(--text-secondary); font-size: 0.9rem;">PDF • 4.2 MB</p>
+                        </div>
+                    </div>
+                    <a href="#" class="btn btn-outline" style="padding: 0.5rem 1rem; font-size: 0.9rem;">Download</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <div class="container footer-content">
+            <div class="footer-section">
+                <h3>Olympiad Texas</h3>
+                <p style="color: var(--text-secondary); max-width: 300px;">Empowering students to achieve academic
+                    excellence through competition and community.</p>
+            </div>
+            <div class="footer-section">
+                <h3>Quick Links</h3>
+                <ul>
+                    <li><a href="about.html">About Us</a></li>
+                    <li><a href="events.html">Events</a></li>
+                    <li><a href="resources.html">Resources</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                </ul>
+            </div>
+            <div class="footer-section">
+                <h3>Contact</h3>
+                <ul>
+                    <li>Email: info@olympiadtexas.com</li>
+                    <li>Phone: (555) 123-4567</li>
+                    <li>Location: Texas International College, Nepal</li>
+                </ul>
+            </div>
+        </div>
+        <div class="container"
+            style="text-align: center; margin-top: 2rem; padding-top: 1rem; border-top: 1px solid var(--border-color); color: var(--text-secondary); font-size: 0.9rem;">
+            &copy; 2025 Olympiad at Texas. All rights reserved.
+        </div>
+    </footer>
+
+    <script src="js/script.js"></script>
+    <script>
+        gsap.from(".fade-in", {
+            y: 30,
+            opacity: 0,
+            duration: 0.8,
+            stagger: 0.1,
+            ease: "power2.out"
+        });
+    </script>
+</body>
+
+</html>

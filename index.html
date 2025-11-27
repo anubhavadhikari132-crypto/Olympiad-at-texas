@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Olympiad at Texas | Academic Excellence</title>
+    <meta name="description" content="Join the premier academic competition in Texas. Challenge yourself in Science, Math, and more.">
+    
+    <!-- Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=Outfit:wght@500;700;800&display=swap" rel="stylesheet">
+    
+    <!-- Styles -->
+    <link rel="stylesheet" href="css/styles.css">
+    
+    <!-- GSAP for Animations -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/gsap.min.js"></script>
+</head>
+<body>
+    <!-- Navbar -->
+    <nav class="navbar">
+        <div class="container nav-container">
+            <a href="index.html" class="logo">
+                <span class="text-gradient">Olympiad</span> Texas
+            </a>
+            <button class="mobile-menu-btn">☰</button>
+            <ul class="nav-links">
+                <li><a href="index.html" class="active">Home</a></li>
+                <li><a href="about.html">About Us</a></li>
+                <li><a href="events.html">Events</a></li>
+                <li><a href="resources.html">Resources</a></li>
+                <li><a href="blog.html">Blog</a></li>
+                <li><a href="contact.html" class="btn btn-primary">Register Now</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <header class="hero">
+        <div class="bg-animation"></div>
+        <div class="container hero-content">
+            <h1 class="fade-in">Unleash Your <span class="text-gradient">Academic Potential</span></h1>
+            <p class="fade-in">Join the most prestigious academic competition in Texas. Compete, learn, and excel with the best minds.</p>
+            <div class="hero-buttons fade-in">
+                <a href="contact.html" class="btn btn-primary">Register Now</a>
+                <a href="events.html" class="btn btn-outline">View Events</a>
+            </div>
+        </div>
+    </header>
+
+    <!-- Intro Section -->
+    <section class="section-padding">
+        <div class="container">
+            <div class="intro-grid" style="display: grid; grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); gap: 2rem; align-items: center;">
+                <div>
+                    <h2 class="text-gradient">Why Participate?</h2>
+                    <p style="color: var(--text-secondary); margin-bottom: 1rem;">The Olympiad at Texas is more than just a competition. It's a platform to challenge your limits, meet like-minded peers, and gain recognition for your hard work.</p>
+                    <ul style="list-style: disc; padding-left: 1.5rem; color: var(--text-secondary);">
+                        <li>Prestigious awards and scholarships</li>
+                        <li>Networking with top educators</li>
+                        <li>Skill development in critical thinking</li>
+                    </ul>
+                </div>
+                <div style="background: var(--bg-tertiary); padding: 2rem; border-radius: 1rem; border: 1px solid var(--border-color);">
+                    <h3>Upcoming Highlight</h3>
+                    <p style="margin-bottom: 1rem;"><strong>Regional Math Olympiad</strong></p>
+                    <p style="color: var(--text-secondary); margin-bottom: 1rem;">Date: October 15, 2025</p>
+                    <a href="events.html" class="btn btn-outline" style="width: 100%; text-align: center;">Learn More</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <div class="container footer-content">
+            <div class="footer-section">
+                <h3>Olympiad Texas</h3>
+                <p style="color: var(--text-secondary); max-width: 300px;">Empowering students to achieve academic excellence through competition and community.</p>
+            </div>
+            <div class="footer-section">
+                <h3>Quick Links</h3>
+                <ul>
+                    <li><a href="about.html">About Us</a></li>
+                    <li><a href="events.html">Events</a></li>
+                    <li><a href="resources.html">Resources</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                </ul>
+            </div>
+            <div class="footer-section">
+                <h3>Contact</h3>
+                <ul>
+                    <li>Email: info@olympiadtexas.com</li>
+                    <li>Phone: (555) 123-4567</li>
+                    <li>Location: Texas International College, Nepal</li>
+                </ul>
+            </div>
+        </div>
+        <div class="container" style="text-align: center; margin-top: 2rem; padding-top: 1rem; border-top: 1px solid var(--border-color); color: var(--text-secondary); font-size: 0.9rem;">
+            &copy; 2025 Olympiad at Texas. All rights reserved.
+        </div>
+    </footer>
+
+    <script src="js/script.js"></script>
+    <script>
+        // Simple GSAP Animation
+        gsap.from(".fade-in", {
+            y: 50,
+            opacity: 0,
+            duration: 1,
+            stagger: 0.2,
+            ease: "power3.out"
+        });
+    </script>
+</body>
+</html>
